@@ -4,7 +4,7 @@
   "description": "ts,node,ts-node,template",
   "main": "src/index.ts",
   "scripts": {
-    "start": "npm run auto-test",
+    "start": "npm run auto-restart",
     "auto-restart": "nodemon --config nodemon.config.json",
     "auto-test": "nodemon --config nodemon.config.test.json",
     "test": "jest --watch",
